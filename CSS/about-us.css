@@ -294,6 +294,16 @@
     position: relative;
 }
 
+.nama-ketua{
+    color: #000000;
+    font: 400 18px "Abhaya Libre Medium", sans-serif;
+    text-align: left;
+    position: relative;
+    width: 263px;
+    top:1043px;
+    left:765px;
+}
+
 .l1{
     background: rgba(209, 43, 43, 0.8);
     border-radius: 50%;
