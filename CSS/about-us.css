@@ -9,7 +9,8 @@
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
-    width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
   }
 
 .navigation{
@@ -27,7 +28,7 @@
 .welcome{
     color: #000000;
     text-align: left;
-    font size:33px;
+    font-size:33px;
     position: absolute;
     left: 66px;
     width: auto;
@@ -124,7 +125,7 @@
     height: 515px;
     top: 200px;
     left: -10px;
-    angle: -179.83 deg;
+    transform: -179.83 deg;
     position: absolute;
 }
 
@@ -172,6 +173,7 @@
 }
 
 .welcomemomo{
+    width: 100%;
     display:flex;
     justify-content: space-between;
     padding: 0px 3px;
@@ -256,6 +258,8 @@
 
 .out-team{
     width: 100%;
+    margin: 0;
+    padding: 0;
     position: absolute;
 }
 
@@ -276,18 +280,10 @@
     font: 800 45px "Abhaya Libre ExtraBold", sans-serif;
     top: 1124px;
     left: 158px;
+    width:300px;
     position: relative;
-    overflow: hidden;
-}
-
-.nama-ketua{
-    color: #000000;
-    font: 400 18px "Abhaya Libre Medium", sans-serif;
-    text-align: left;
-    position: relative;
-    width: 263px;
-    top:1043px;
-    left:765px;
+    margin: 0;
+    padding: 0;
 }
 
 .img-ktim{
@@ -314,8 +310,8 @@
     grid-row-gap: 50px;
     width:60%
   } 
-  
-.img-tim{
+
+  .img-tim{
     width: 180px;
     height: 223px;
     top: 1000px;
@@ -323,6 +319,7 @@
     position: relative;
     text-align: left;
 }
+
 .l2{
     background:#FAFF00CC;
     border-radius: 50%;
@@ -389,8 +386,10 @@
     text-align: left;
     font: 800 35px "Abhaya Libre ExtraBold", sans-serif;
     position: relative;
+    width:180px;
     top: 662px;
     left: 875px;
+    overflow-x:hidden ;
 }
 
 .quotes{
@@ -487,7 +486,4 @@
     top:18px;
     font: 500 23px "Poppins", sans-serif;
     position: relative;
-    }
-
-
-
+}

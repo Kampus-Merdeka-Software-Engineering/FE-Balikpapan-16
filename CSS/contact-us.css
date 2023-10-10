@@ -90,7 +90,7 @@ img-icon1{
     height: 1440.11px;
     position: absolute;
     transform-origin: 0 0;
-    Rotation:90.11°;
+    transform: rotate(90.11°);
     filter: blur(1px);
     z-index: -1;
   }
@@ -98,24 +98,28 @@ img-icon1{
 .img-bg h2{
     color: #ffffff;
     text-align: center;
-    font: 400 45px "Abhaya Libre ExtraBold", sans-serif;
+    font: 400 40px "Abhaya Libre ExtraBold", sans-serif;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    width: 1100px;
+    width: 1000px;
     height: 85px;
     top: 629px;
-    left: 150px;
+    left: 280px;
   }
   
 .img-bg p {
     text-align: center; 
     color: #FFFFFF; 
     font: 700 italic 21px "Averia Serif Libre", sans-serif;
+    justify-content: center;
+    align-items: center;
     text-transform: lowercase;
     position: relative;
     width: 670px;
     height: 24px;
     top: 669px;
-    left: 350px;
+    left: 450px;
   }
   
 .img-cu1{
@@ -190,7 +194,7 @@ img-icon1{
     top: 1192.87px;
     left: 158px;
     margin: 8px 0;
-    angle: 0.29 deg;
+    transform: rotate(0.29 deg);
   }
   
 .text-contact-info{
@@ -312,7 +316,7 @@ img-icon1{
 
 .user-input-box input:focus,
 .user-input-box-m textarea:focus{
-    border bottom: 1px solid  rgba(240, 116, 99, 0.7);
+    border-bottom: 1px solid  rgba(240, 116, 99, 0.7);
     color: black;
 }
 
@@ -348,7 +352,7 @@ img-icon1{
     cursor: pointer;
 }
 
-.form-submit-btn input{
+.form-submit-btn button{
     background:#870A0A;
     border-radius: 30px;
     width: 268px;
@@ -358,11 +362,6 @@ img-icon1{
     color: #FFFFFF;
   }
 
-.form-submit-btn p{
-    color: #28A745;
-}
-
-  
 .sosmed{
     background: #722e18;
     display: flex;
