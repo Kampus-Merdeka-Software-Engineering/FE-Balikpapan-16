@@ -159,25 +159,6 @@
           <a href="./contact-us.html"> contact-us</a>
       </div>
     </div>
-  <script src="./JS/script.js">
-  <script>
-    const API_BASE_URL = 'https://be-balikpapan-16-production.up.railway.app/contact'; // Ganti dengan URL yang sesuai
-
-    async function fetchData() {
-        try {
-            const response = await fetch(`${API_BASE_URL}/contact`);
-            const data = await response.json();
-
-            // Tampilkan data di dalam elemen HTML
-            const dataContainer = document.getElementById('data-container');
-            dataContainer.innerHTML = `Data dari Backend: ${JSON.stringify(data)}`;
-        } catch (error) {
-            console.error('Error:', error);
-        }
-    }
-
-    // Panggil fungsi fetchData saat halaman dimuat
-    fetchData();
-  </script>
+  <script src="./JS/script.js"></script>
   </body>   
 </html>
