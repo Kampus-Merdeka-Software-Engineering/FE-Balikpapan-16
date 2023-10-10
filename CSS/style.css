@@ -1,17 +1,14 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-  }
-
+    padding: 0;}
 .body{
     display:flex;
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
-    width: 100%;
+    width: 100%;  
   }
-
 .dashboard {
     top: 0;
     left: 0;
@@ -20,14 +17,12 @@
     width: 100%;
     height: 1024px;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; 
   }
-
 .warnabackground {
     position: absolute;
     inset: 0;
   }
-
 .background1 {
     background: rgba(30, 43, 89, 0.99);
     border-radius: 50%;
@@ -36,9 +31,8 @@
     left: 1000px;
     top: -33px;
     position: absolute;
-    filter: blur(2px);
+    filter: blur(2px); 
   }
-
 .background2 {
     background: rgba(77, 41, 41, 0.99);
     border-radius: 50%;
@@ -47,9 +41,7 @@
     position: absolute;
     left: -189px;
     top: 227px;
-    filter: blur(2px);
-  }
-
+    filter: blur(2px);}
 .background3 {
     background: #d6d5d5;
     border-radius: 50%;
@@ -58,8 +50,7 @@
     position: absolute;
     left: 677px;
     top: 343px;
-    filter: blur(2px);
-  }
+    filter: blur(2px); }
 
 .navigation{
     background-color: rgba(0, 0, 0, 0.25);
@@ -70,8 +61,7 @@
     align-items: center;
     justify-content: space-between;
     color: #000;
-    position: relative;
-  }
+    position: relative;}
 
 .logo{
     color: #000000;
@@ -80,15 +70,13 @@
     position: absolute;
     left: 66px;
     width: auto;
-    height: 35px;
-  }
+    height: 35px; }
 
 .wrap-menu{
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
-  }
+    flex-grow: 1;}
 
 .wrap-menu a:hover{
     color: #ffffff;
