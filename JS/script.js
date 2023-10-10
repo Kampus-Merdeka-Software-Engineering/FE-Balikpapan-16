@@ -10,14 +10,12 @@ const form = document.querySelector('#formContact')
 // kita berikan event submit pada form nya
 form.addEventListener('submit', function(e){
     e.preventDefault();
-
     const data = {
         names: nameInput.value,
         mail:email.value,
         subjek: subject.value,
         pesan:message.value,
     }
-
     fetch('https://be-balikpapan-16-production.up.railway.app/contact', {
         method: 'POST',
         headers: {
@@ -28,12 +26,10 @@ form.addEventListener('submit', function(e){
     .then(response => response.json())
     .then(data => {
         alert("berhasil mengirimkan data")
-
         // clear semua inputan form
         form.reset()
     })
     .catch(error => {
         console.error('Error:', error);
     });
-
     console.log(data)

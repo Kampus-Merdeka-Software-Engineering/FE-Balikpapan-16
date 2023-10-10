@@ -41,7 +41,8 @@
     position: absolute;
     left: -189px;
     top: 227px;
-    filter: blur(2px);}
+    filter: blur(2px);
+  }
 .background3 {
     background: #d6d5d5;
     border-radius: 50%;
@@ -50,8 +51,8 @@
     position: absolute;
     left: 677px;
     top: 343px;
-    filter: blur(2px); }
-
+    filter: blur(2px); 
+  }
 .navigation{
     background-color: rgba(0, 0, 0, 0.25);
     width: 100%;
@@ -70,18 +71,17 @@
     position: absolute;
     left: 66px;
     width: auto;
-    height: 35px; }
-
+    height: 35px;
+   }
 .wrap-menu{
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;}
-
+    flex-grow: 1;
+  }
 .wrap-menu a:hover{
     color: #ffffff;
 }
-  
 .menu{
     padding: 0px 24px;
     font: 500 23px "Poppins", sans-serif;
@@ -91,19 +91,16 @@
     position: relative;
     left:135px;
   }
-
 .icon{
     display: flex;
     justify-content: right;
     align-items: center;
   }
-
 .img-icon{
     padding:0px 4px;
     left:875x;
     position: relative;
   }
-
 .text1 {
     text-align: left;
     font: 700 55px "Poppins", sans-serif;
