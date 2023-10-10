@@ -15,10 +15,10 @@ form.addEventListener('submit', function(e){
         mail:email.value,
         subjek: subject.value,
         pesan:message.value,
-    }
+    };
     fetch('https://be-balikpapan-16-production.up.railway.app/contact', {
         method: 'POST',
-        headers: {
+        headers: { 
         'Content-Type': 'application/json'
         },
         body: JSON.stringify(data)
@@ -32,4 +32,5 @@ form.addEventListener('submit', function(e){
     .catch(error => {
         console.error('Error:', error);
     });
-    console.log(data)
+    console.log(data);
+});
